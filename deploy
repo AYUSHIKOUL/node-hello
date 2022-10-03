@@ -1,6 +1,7 @@
 #!/bin/sh
  npm install — production
- npm start &
+# npm start &
+ pm2 restart index.js
  echo "done"
  exit
 EOF

@@ -1,7 +1,0 @@
-#!/bin/sh
-# npm install — production
-# npm start &
- pm2 start index
- echo "done"
- exit
-EOF

@@ -1,5 +1,6 @@
 #!/bin/sh
  npm install — production
- npm start
+ npm start &
+ echo "done"
  exit
 EOF
